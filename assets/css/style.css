@@ -1,0 +1,162 @@
+/** fonte 400 e 700 oswald
+400 e 400 italic open sans
+*/
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#line {
+  height: 15px;
+  background-color: #1a7c50;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+/*HEADER*/
+
+.header--area {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 0 25px 0;
+  align-items: center;
+}
+
+.header--left img {
+  width: 64px;
+  height: 64px;
+}
+
+.header--search form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header--search input {
+  font-size: 16px;
+  padding: 10px 15px;
+  border: 1px solid rgba(65, 65, 65, 0.432);
+  outline: 0;
+  width: 100%;
+  max-width: 250px;
+  border-radius: 3px;
+}
+
+.header--search button {
+  border: none;
+  background: transparent;
+}
+
+.header--search button img {
+  height: 16px;
+  width: 16px;
+  margin-left: -64px;
+  cursor: pointer;
+}
+
+.header--right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 300px;
+}
+
+.header--menu img {
+  height: 28px;
+  width: 28px;
+}
+
+/*BANNER*/
+
+.banner {
+  background-image: url(../images/bg.jpg);
+  background-position: center;
+  background-size: cover;
+
+}
+
+.banner .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  padding-bottom: 90px;
+}
+
+.banner--images img {
+  height: 150px;
+  width: 150px;
+  border-radius: 500px;
+  border: 6px solid #1a7c50;
+  margin-right: 25px;
+}
+
+.text h1 {
+  padding-top: 60px;
+  font-size: 106px;
+  font-family: "Oswald";
+  margin-bottom: -10px;
+  line-height: 110px;
+}
+
+.text p {
+  font-weight: 300;
+  font-size: 16px;
+  margin: 60px 0 55px;
+}
+
+/*SECTION 1*/
+.section1 {
+  display: flex;
+}
+
+.section1 img {
+  width: 100% !important;
+}
+
+.left .container img {
+  width: 100%;
+  max-height: 230px;
+}
+
+.left .container h2 {
+  margin-top: 10px;
+  font-family: 'Oswald';
+  font-size: 36px;
+}
+
+.left .container span {
+  font-style: italic;
+  font-size: 16px;
+}
+
+.left .container p {
+  font-size: 16px;
+}
+
+.left .container button {
+  padding: 15px 35px;
+  font-size: 16px;
+  border: 2px solid #000;
+  border-radius: 2px;
+  background-color: transparent;
+}
+
+.left .container button:hover {
+  border: 2px solid #454545;
+  color: #fff;
+  border-radius: 2px;
+  background-color: #454545;
+}
+
+#linedivisor {
+  width: 170px;
+  height: 20px;
+  background-color: #1a7c50;
+}
